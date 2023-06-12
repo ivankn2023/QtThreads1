@@ -43,5 +43,5 @@ void manager::finished()
     qInfo()<<"Finished "<<thread->objectName();
 
     threads.removeAll(thread);
-    delete threads;
+    delete thread;
 }
